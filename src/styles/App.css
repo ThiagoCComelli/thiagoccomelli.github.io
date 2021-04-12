@@ -1,0 +1,18 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    padding-left: 70px;
+    overflow-y: auto;
+}
+
+.icon{
+    color: #fff;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.icon:hover{
+    opacity: 1;
+}
