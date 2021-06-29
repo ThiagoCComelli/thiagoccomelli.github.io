@@ -1,15 +1,18 @@
 import React from 'react'
+import {useHistory} from 'react-router-dom'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import '../styles/Navbar.css'
 
 function Navbar(){
+    const history = useHistory()
+
     return(
         <>
             <div className="mainNavbar">
                 <div className="mainNavbarLogo">
-                    <img alt="" src={`${process.env.PUBLIC_URL}/images/logo-white.png`} />
+                    <img onClick={() => {history.push("/")}}  alt="" src={`${process.env.PUBLIC_URL}/images/logo-white.png`} />
                 </div>
                 <div className="mainNavbarItems">
                     <a href="https://www.linkedin.com/in/thiagoccomelli/"><LinkedInIcon style={{fontSize: "30px"}} className="icon" /></a>

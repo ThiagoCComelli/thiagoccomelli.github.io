@@ -1,131 +1,77 @@
-.mainHome{
-    position: relative;
+.mainHome {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.mainHomeItem{
-    position: relative;
-    padding-top: 100%;
-    width: 100%;
-    transform-style: preserve-3d;
-}
-
-.mainHomeSubItem{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    overflow: hidden;
-}
-
-.mainHomeSubItemFront, .mainHomeSubItemBack{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    color: #fff;
-}
-
-.mainHomeSubItemBack::before{
-    background: linear-gradient(to top, black, transparent);
-}
-
-.mainHomeSubItemBack::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.514);
-}
-
-.mainHomeSubItemBack::after{
-    content: "";
-    position: absolute;
-    color: transparent;
-    font-weight: 900;
-    font-size: 3rem;
-    -webkit-text-stroke: rgba(255, 255, 255, 0.404) 1px;
-    left: 0;
-    bottom: 0;
-}
-
-#project::after{
-    content: "PROJETO";
-}
-
-#research::after{
-    content: "PESQUISA";
-}
-
-.mainHomeSubItemBack img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.mainHomeSubItemFront{
-    background-color: black;
-    transition: .2s ease-in-out;
-    /* transform: translateY(-100%); */
-    color: #fff;
-}
-
-.mainHomeSubItem:hover .mainHomeSubItemFront{
-    transform: translateY(-100%);
-}
-
-.mainHomeSubItemFront h3{
-    font-weight: 900;
-    font-size: 5rem;
-    margin: 0 50px;
-    color: transparent;
-    -webkit-text-stroke: rgba(255, 255, 255, 0.336) 1px;
-}
-
-.mainHomeItemDesc{
-    width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    position: absolute;
-    top: -40px;
-    text-align: center;
-    padding: 20px;
-    /* z-index: 100; */
-}
-
-.mainHomeItemDesc h2{
-    font-weight: 300;
-}
-
-.mainHomeItemDesc p{
-    font-weight: 200;
-}
-
-.mainHomeItemDesc button{
-    background-color: transparent;
+    justify-content: center;
+    align-items: center;
     color: #fff;
-    border-style: none;
+}
+
+.mainHomeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.mainHomeContent code {
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.mainHomeContent code b {
+    font-family: 'Source Code Pro';
+    background-color: rgba(90, 90, 90, 0.527);
+    padding: 5px 10px;
+}
+
+.mainHomeContent code strong {
+    background: -webkit-linear-gradient(0deg, rgba(0,195,195,1) 0%, rgba(246,0,228,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainHomeContentTitle {
+    font-size: 2rem;
+    font-family: 'Source Code Pro';
+    background-color: rgba(90, 90, 90, 0.527);
+    padding: 10px 20px;
+}
+
+.mainHomeContent > code {
+    margin-bottom: 10px;
+}
+
+.mainHomeContentsBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+
+.mainHomeContentsBox span {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
     cursor: pointer;
 }
 
-@media screen and (max-width: 950px) {
-    .mainHome {
-        grid-template-columns: repeat(3, 1fr);
-    }
+.mainHomeContentsBox span:nth-child(even) {
+    height: 100%;
+    padding: 0;
+    width: 1px;
+    border: solid 1px #fff;
+    border-left: 0;
 }
 
-@media screen and (max-width: 650px) {
-    .mainHome {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .mainHome {
-        grid-template-columns: repeat(1, 1fr);
-    }
+.mainHomeContentsBox a {
+    text-decoration: none;
+    color: #fff;
 }
