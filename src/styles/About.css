@@ -1,0 +1,193 @@
+.mainAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: calc(100vh/4);
+    width: 100%;
+    gap: 50px;
+}
+
+.mainAboutSeparator hr {
+    width: 100%;
+    color: rgba(90, 90, 90, 0.185);;
+
+}
+
+.mainAboutSeparator {
+    width: 100%;
+    max-width: 800px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.mainAboutUpper {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainAbout h1 {
+    color: #fff;
+}
+
+.mainAboutFooter {
+    padding: 10px 0 5px 0;
+    max-width: 800px;
+    width: 100%;
+    background-color: rgba(90, 90, 90, 0.185);;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.mainAboutContent {
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    width: 100%;
+}
+
+.mainAboutContent > div {
+    flex: 1;
+    background-color: rgba(90, 90, 90, 0.527);
+}
+
+.mainAboutContentImg {
+    position: relative;
+}
+
+.mainAboutContentImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.mainAboutContentInfos {
+    padding: 30px;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mainAboutContentInfos h2 {
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.mainAboutContentInfosSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainAboutWorks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    color: #fff;
+}
+
+.mainAboutWorksSection {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mainAboutWorksSection .mainAboutWorksSectionItem:nth-child(1) {
+    text-align: end;
+}
+
+.mainAboutWorksSectionItem {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px;
+    font-weight: 300;
+    padding-bottom: 50px;
+    gap: 5px;
+}
+
+.mainAboutWorksSection > span {
+    position: relative;
+    width: 1px;
+    height: 100%;
+    border: solid 1px rgba(90, 90, 90, 0.527);;
+}
+
+.mainAboutWorksSection > span::before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    background-color: #fff;
+    top: -3px;
+    left: -3px;
+}
+
+.mainAboutSkills {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px 200px 0;
+    color: #fff;
+    gap: 40px;
+}
+
+.mainAboutSkills span {
+    padding: 5px 20px;
+    border: solid 1px #fff;
+    border-radius: 20px;
+}
+
+.mainAboutColors {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainAboutColorsIcon {
+    width: 7px;
+    height: 7px;
+    border-radius: 7px;
+    margin: 0 10px 0 25px;
+}
+
+.mainAboutColors .avancado {
+    background-color: green;
+}
+
+.mainAboutColors .intermediario {
+    background-color: yellow;
+}
+
+.mainAboutColors .iniciante {
+    background-color: red;
+}
+
+.mainAboutSkills .avancado {
+    border-color: rgba(0, 128, 0, 0.329);
+}
+
+.mainAboutSkills .intermediario {
+    border-color: rgba(255, 255, 0, 0.322);
+}
+
+.mainAboutSkills .iniciante {
+    border-color: rgba(255, 0, 0, 0.329);
+}

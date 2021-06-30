@@ -17,7 +17,7 @@ export default function Home() {
                 </div>
                 <code>Programador <b>full-stack</b> desde 2019 não aceitando <strong>"Por Que Sim"</strong> como resposta</code>
                 <div className="mainHomeContentsBox">
-                    <span><PersonOutlineIcon />Sobre mim</span>
+                    <span onClick={() => {history.push("/about")}} ><PersonOutlineIcon />Sobre mim</span>
                     <span></span>
                     <span onClick={() => {history.push("/projects")}} ><StarOutlineIcon />Projetos</span>
                 </div>

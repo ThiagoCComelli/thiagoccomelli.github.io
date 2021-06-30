@@ -28,8 +28,8 @@
 }
 
 .mainHomeContent code strong {
-    background: -webkit-linear-gradient(0deg, rgba(0,195,195,1) 0%, rgba(246,0,228,1) 100%);
-    -webkit-background-clip: text;
+    background: linear-gradient(90deg, rgba(0,195,195,1) 0%, rgba(246,0,228,1) 100%);
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
