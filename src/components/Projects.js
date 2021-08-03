@@ -34,7 +34,8 @@ function Projects(){
             <Item alt="4" image="instagram.png" title="Instagram Clone" description="Instagram Clone para estudar a ferramenta Firebase e React REDUX" url="https://instagramclonetc.web.app/" type="project" />
             <Item alt="5" image="exploretheworld.png" title="Explore The World" description="Landing Page feita para testar a transição Dinâmica de imagens." url="https://thiagoccomelli.github.io/exploretheworld/" type="project" />
             <Item alt="6" image="urlshortener.jpeg" title="URL Shortener" description="Gerencimanto de encurtamento de links" url="https://urluid.tk/" type="project" />
-            <Item alt="7" image="json.png" title="SHACL Schema to JSON Schema" description="Ferramenta de conversão de documentos SHACL Schema para JSON Schema" url="https://github.com/gbd-ufsc/JS2SHACL" type="research" />
+            <Item alt="7" image="gerenciador.png" title="Gerenciador De Caixa" description="Sistema para gerenciamento de finanças pessoais" url="https://github.com/ThiagoCComelli/gerenciador-de-caixa" type="project" />
+            <Item alt="8" image="json.png" title="SHACL Schema to JSON Schema" description="Ferramenta de conversão de documentos SHACL Schema para JSON Schema" url="https://github.com/gbd-ufsc/JS2SHACL" type="research" />
         </div>
         </>
     )
