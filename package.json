@@ -11,8 +11,8 @@
     "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.1",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^2.1.3",
     "save-dev": "0.0.1-security",
     "web-vitals": "^0.2.4"
   },
@@ -30,6 +30,11 @@
       "react-app/jest"
     ]
   },
-  "browserslist": [">0.3%", "not ie 11", "not dead", "not op_mini all"],
-  "homepage": "."
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ],
+  "homepage": "https://thiagoccomelli.github.io/"
 }

@@ -3,9 +3,9 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import InstagramIcon from '@material-ui/icons/Instagram';
 
-import '../styles/About.css'
+import './About.css'
 
-export default function About() {
+const About = () => {
     return (
         <div className="mainAbout">
             <div className="mainAboutUpper">
@@ -117,3 +117,5 @@ export default function About() {
         </div>
     )
 }
+
+export default About

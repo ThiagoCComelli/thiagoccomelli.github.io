@@ -1,7 +1,7 @@
 import React from 'react'
-import '../styles/Projects.css'
+import './Projects.css'
 
-function Item({alt,image,title,description,url,type}){
+const Item = ({alt,image,title,description,url,type}) => {
 
     return(
         <>
@@ -12,7 +12,7 @@ function Item({alt,image,title,description,url,type}){
                     <div className="mainProjectsItemDesc">
                         <h2>{title}</h2>
                         <p>{description}</p>
-                        <a href={url}><button>Acesse</button></a>
+                        <a href={url}><button>Saber mais</button></a>
                     </div>
                 </div>
                 <div className="mainProjectsSubItemFront">
@@ -24,7 +24,7 @@ function Item({alt,image,title,description,url,type}){
     )
 }
 
-function Projects(){
+const Projects = () => {
     return(
         <>
         <div className="mainProjects">

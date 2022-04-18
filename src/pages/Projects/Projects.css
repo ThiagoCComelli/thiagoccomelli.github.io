@@ -76,11 +76,18 @@
 }
 
 .mainProjectsSubItemFront h3{
+    position: relative;
     font-weight: 900;
     font-size: 5rem;
     margin: 0 50px;
-    color: transparent;
-    -webkit-text-stroke: rgba(255, 255, 255, 0.336) 1px;
+    /* color: transparent; */
+    color: #000;
+    text-shadow: 
+        1px 1px 0 rgba(255, 255, 255, 0.164),
+        -1px -1px 0 rgba(255, 255, 255, 0.164),
+        1px -1px 0 rgba(255, 255, 255, 0.164),
+        -1px 1px 0 rgba(255, 255, 255, 0.164);
+    /* -webkit-text-stroke: rgba(255, 255, 255, 0.336) 1px; */
 }
 
 .mainProjectsItemDesc{
