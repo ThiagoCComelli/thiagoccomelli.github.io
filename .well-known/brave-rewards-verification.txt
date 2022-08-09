@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: thiagoccomelli.github.io
+Token: 9afdd79325203c0a6680699f3a005f942854468afedb39b9970e5b016d568eb9
